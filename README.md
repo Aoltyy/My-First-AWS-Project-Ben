@@ -30,3 +30,12 @@ Workflow of this project
 2.  **Deploy Lambda:** Paste `lambda_function.py` into the AWS Console.
 3.  **Connect S3:** Add an "Event Notification" to your bucket to trigger the Lambda.
 4.  **Env Vars:** Update the `BUCKET_NAME` and `SNS_TOPIC_ARN` in the code with your own.
+
+## prerequisites (important!)
+1.  **Create VPC & others:** VPC & Availablity Zones.
+2.  **Networking & others:** Security Groups, Route tables, Internet Gateway and NAT gateway.
+3.  **DynamoDB:** Set up DynamoDB with metadata and username with password tables.
+4.  **Lambda:** Create a Lambda function with S3 as a trigger.
+5.  **Amazon SNS:** Create Topic and Subscriptions.
+6.  **High Availablity:** Create Auto Scaling Group & Application Load Balancer followed with Target Group.
+7.  **Web Server:** Use an EC2 launch template to launch our web server.
