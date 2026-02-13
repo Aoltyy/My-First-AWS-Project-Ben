@@ -36,6 +36,6 @@ Workflow of this project
 2.  **Networking & others:** Security Groups, Route tables, Internet Gateway and NAT gateway.
 3.  **DynamoDB:** Set up DynamoDB with metadata and username with password tables.
 4.  **Lambda:** Create a Lambda function with S3 as a trigger.
-5.  **Amazon SNS:** Create Topic and Subscriptions.
-6.  **High Availablity:** Create Auto Scaling Group & Application Load Balancer followed with Target Group.
-7.  **Web Server:** Use an EC2 launch template to launch our web server.
+5.  **Amazon SNS:** Create Topic and Subscription.
+6.  **High Availablity:** Create Auto Scaling Group & Application Load Balancer followed with a Target Group.
+7.  **Web Server:** Use an EC2 launch template to launch the web server.
