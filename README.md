@@ -22,7 +22,7 @@ Workflow of this project
 
 
 ## Architecture Notes
-* **Security:** The EC2 instances sit in a Private Subnet behind a NAT Gateway(Public Subnet) for security.
+* **Security:** The EC2 instances sit in a Private Subnet behind a NAT Gateway (Public Subnet) for security.
 * **Cost:** The NAT Gateway costs ~ USD $30/month. for cheaper non-production builds, we can manuallly install the python packages into the EC2 server.
 
 ## How to Run
